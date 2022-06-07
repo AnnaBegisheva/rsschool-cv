@@ -1,4 +1,4 @@
-## [rsschool-cv](https://annabegisheva.github.io/rsschool-cv/)
+## [rsschool-cv](https://annabegisheva.github.io/rsschool-cv/cv)
 
 ---
 
@@ -12,7 +12,6 @@ Junior Frontend Developer
 
 ### Contact information:
 
-\
 **Phone:** +7 999 999 99 99  
 **E-mail:** annabegisheva@gmail.com  
 **Discord:** AnnaB (@AnnaBegisheva)
@@ -21,7 +20,6 @@ Junior Frontend Developer
 
 ### Briefly About Myself:
 
-\
 Having started my career as a media planner in an international media agency with minimum skills, I became profficient in media planning. My keen interest in planning and strategy led me to working as a Senior for a huge FMCG company, where I continued to leverage my expertise and gained following achievements:
 • Successful launch of new oral care brand,
 • Execution of bonus social campaign that was named as one of the Agency’s most valuable contribution to channel planning in 2020 and resulting in official letter of thanks for the team from client’s CEO,
@@ -112,5 +110,5 @@ ITGirls school Frontend course ( HTML, CSS, basic JS, React)
 ### Languages:
 
 English - Upper Intermediate - Advanced (according to the online test at EFset <www.efset.org>),
-![english_test_results](english_test_results.png "English Test Results")
+![english_test_results](./english_test_results.png "English Test Results")
 Russian - Native
