@@ -109,6 +109,6 @@ ITGirls school Frontend course ( HTML, CSS, basic JS, React)
 
 ### Languages:
 
-English - Upper Intermediate - Advanced (according to the online test at EFset <www.efset.org>),
-![english_test_results](./english_test_results.png "English Test Results")
+English - Upper Intermediate - Advanced (according to the online test at EFset (<www.efset.org>)),
+![english_test_results](./english_test_results.png)
 Russian - Native
