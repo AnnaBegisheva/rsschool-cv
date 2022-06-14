@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/favicon.ico">
     <title>CV</title>
 </head>
@@ -30,39 +31,170 @@
     </header>
     <main>
         <div class="container main-container">
-            <section class="section" id="profile">
-                <h1 class="section-title"></h1>
-                <img src="./assets/img/avatar.jpg" alt="avatar">
-                <p></p>
+            <section class="section profile-section" id="profile">
+                <div class="profile-block">
+                    <div class="profile-img">
+                        <img src="./assets/img/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="profile-desc">
+                        <h1 class="section-title profile-title">Anna Begisheva</h1>
+                        <p>Junior Frontend developer</p>
+                    </div>
+                </div>
             </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <p></p>
-            </section>
-            <section class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
-                <p></p>
-            </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-                <p></p>
-            </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code examples</h2>
-                <p></p>
-            </section>
-            <section class="section" id="eduction">
-                <h2 class="section-title">Eduction</h2>
-                <p></p>
-            </section>
-            <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
-                <p></p>
-            </section>
+            <div class="grid-container">
+                <div class="grid-left">
+                    <section class="section" id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">Moscow, Russia</li>
+                            <li class="contacts-item"><span>Phone: </span> +7 999 999 99 99 </li>
+                            <li class="contacts-item"><span>E-mail: </span>E-mail: annabegisheva@gmail.com </li>
+                            <li class="contacts-item"><span>Discord: </span> AnnaB (@AnnaBegisheva)</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul>
+                            <li>HTML5, CSS3, Sass</li>
+                            <li>JavaScript Basics</li>
+                            <li>React Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            <li>Figma for devs</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="eduction">
+                        <h2 class="section-title">Education</h2>
+                        <ul>
+                            <li>ITGirls school Frontend course ( HTML, CSS, basic JS, React)</li>
+                            <li>JavaScript Manual on learnjavascript.ru</li>
+                            <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+                        <ul class="lang-list">
+                            <li class="lang-item">English - Upper Intermediate - Advanced (according to the online test
+                                at <a href="https://www.efset.org/ru/" class="lang-link">EFset</a>)</li>
+                            <li class="lang-item">JavaScript Manual on learnjavascript.ru</li>
+                            <li class="lang-item">RS Schools «JavaScript/Front-end. Stage 0»</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="grid-right">
+                    <section class="section" id="summary">
+                        <h2 class="section-title">Summary</h2>
+                        <p>Having started my career as a media planner in an international media agency with minimum
+                            skills, I became profficient in media planning. My keen interest in planning and strategy
+                            led me to working as a Senior for a huge FMCG company, where I continued to leverage my
+                            expertise and gained following achievements:</p>
+                        <ul>
+                            <li>Successful launch of new oral care brand,</li>
+                            <li>Execution of bonus social campaign that was named as one of the Agency’s most valuable
+                                contribution to channel planning in 2020 and resulting in official letter of thanks for
+                                the
+                                team from client’s CEO,</li>
+                            <li>Client satisfaction growth on troublesome account according to client’s bi-monthly
+                                assessment.</li>
+                        </ul>
+                        <p>
+                            Experience in media planning let me develop some usefull for frontender skills such as
+                            working in team, good communicational skills, accuracy and time management.
+                            I believe, that my ability to learn and to gain new skills will lead me through this path of
+                            becoming a proficient Frontend Developer.
+                        </p>
+                    </section>
+                    <section class="section" id="projects">
+                        <h2 class="section-title">Projects</h2>
+                        <ul class="projects-list">
+                            <li class="projects-item"><a
+                                    href="https://github.com/AnnaBegisheva/ITGirls/tree/main/study-cards-app"
+                                    class="projects-link">React app "Flashcards for learning English words" - in
+                                    progress</a></li>
+                            <li class="projects-item"><a href="https://mrglk.github.io/projectShop/"
+                                    class="projects-link">Group project for e-shop Felis(checkout page with
+                                    validation)</a></li>
+                            <li class="projects-item"><a href="https://mrglk.github.io/projectMynanny/"
+                                    class="projects-link">Group project for "My Nanny" site(training page layout)</a>
+                            </li>
+                            <li class="projects-item"><a
+                                    href="https://github.com/AnnaBegisheva/ITGirls/tree/main/timeline"
+                                    class="projects-link">Curved timeline with CSS</a></li>
+                            <li class="projects-item"><a href="https://8alex.github.io/team_project/"
+                                    class="projects-link">Group project site Book e-shop (layouts for mobile friendly
+                                    sliders with CSS)</a></li>
+                        </ul>
+                    </section>
+                    <section class="section" id="code">
+                        <h2 class="section-title">Code examples</h2>
+                        <div class="code-block">
+                            <pre><code>function App() {
+  const themes = [themeA, themeB, themeC, themeD];
+  const [selected, setSelected] = useState(false);
+
+  function Plan(props) {
+    return (
+      &lt;div
+        onClick={props.onClick}
+        className={&#x60;plan ${props.selected ? &quot;selected&quot; : &quot;&quot;}&#x60;}
+      &gt;
+        &lt;header className={&#x60;plan__header ${props.theme.plan__header}&#x60;}&gt;
+          {props.title}
+        &lt;/header&gt;
+        &lt;div className={&#x60;plan__price ${props.theme.plan__price}&#x60;}&gt;
+          &lt;p className=&quot;plan__priceValue_upper&quot;&gt;руб&lt;/p&gt;
+          &lt;p className=&quot;plan__priceValue&quot;&gt;{props.price}&lt;/p&gt;
+          &lt;p className=&quot;plan__priceValue_lower&quot;&gt;/мес&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;plan__speed&quot;&gt;{props.speed}&lt;/div&gt;
+        &lt;footer className=&quot;footer&quot;&gt;
+          Объем включенного трафика не ограничен
+        &lt;/footer&gt;
+      &lt;/div&gt;
+    );
+  }
+
+  return (
+    &lt;div className=&quot;App&quot;&gt;
+      &lt;header className=&quot;App-header&quot;&gt;Наши тарифы&lt;/header&gt;
+      &lt;div className=&quot;plans&quot;&gt;
+        {data.map((plan, i) =&gt; (
+          &lt;Plan
+            title={plan.title}
+            price={plan.price}
+            speed={plan.speed}
+            theme={themes[i]}
+            selected={selected === i}
+            onClick={() =&gt; setSelected(i)}
+          &gt;&lt;/Plan&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;</code></pre>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </main>
-    <footer>
-        <div class="container"></div>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="github">
+                <a href="https://github.com/AnnaBegisheva">
+                    <img src="./assets/img/GitHub-Mark-64px.png" alt="github-logo">
+                </a>
+            </div>
+            <p>2022</p>
+            <div class="rss-logo">
+                <a href="https://rs.school/js/">
+                    <img src="./assets/img/rs_school_js.svg" alt="rss-logo" class="rss-logo-img">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 
